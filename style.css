@@ -6,8 +6,8 @@
 .wrapper{
     background-color: #245076;
     width: 970px;
-    padding: 10px;
     margin: 20px;
+    padding-top: 10px;
 }
 .logo{
     display: inline-block;
@@ -22,11 +22,12 @@
 }
 .info a{
     color: #ead34b;
+    margin-bottom: 3px;
 }
 .search{
     background-color: #444444;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 10px 15px;
+    border-radius: 7px;
     justify-content: center;
 }
 .search button{
@@ -39,6 +40,9 @@
 }
 .search input{
     height: 25px;
+    color: grey;
+    text-align: center;
+    font-size: .7em;
 }
 .links{
     justify-content: center;
