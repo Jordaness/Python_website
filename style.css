@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+.wrapper{
+    background-color: #245076;
+    width: 970px;
+    padding: 10px;
+    margin: 20px;
+}
+.logo{
+    display: inline-block;
+    margin: 10px;
+}
+.info{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 275px;
+    text-align: center;
+}
+.info a{
+    color: #ead34b;
+}
+.search{
+    background-color: #444444;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+}
+.search button{
+    background-color: #245076;
+    border-radius: 5px;
+    box-shadow: 2px grey;
+    height: 35px;
+    width: 45px;
+    margin: 5px;
+}
+.search input{
+    height: 25px;
+}
+.links{
+    justify-content: center;
+    background-color: #3b79ad;
+    font-size: 1.5em;
+    text-align: center;
+    width: 750px;
+    padding: 10px;
+    box-shadow: 2px 3px black;
+    border-radius: 5px;
+    position: relative;
+    left: 100px;
+}
+.links a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#main {
+    padding: 20px;
+    text-align: center;
+}
+.nav{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+.nav a{
+    text-decoration: underline;
+    margin: 10px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+.content{
+    display: inline-block;
+    width: 600px;
+    margin: 10px;
+}
+.content h2{
+    color: #ead34b;
+    font-size: 1.3em;
+    font-style: italic;
+    margin: 5px;
+    font-weight: 200;
+}
+.content h3{
+    font-weight: 200;
+}
+#lower{
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+.lesson{
+    display: inline-block;
+    width: 350px;
+    vertical-align: top;
+    margin: 10px 50px;
+    border-top: 3px  solid #37a2cc;
+}
+.lesson li{
+    color: black;
+    list-style-type: square;
+}
+.lesson a{
+    color: #37a2cc;
+    text-decoration: none;
+}
+.lesson h2{
+    color: black;
+    font-size: 1.3em;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+.lesson p{
+    color: black;
+}
+.lesson strong{
+    font-size: .7em;
+    color: #37a2cc;
+}
+.footer {
+    background: linear-gradient(#245076, #3b79ad);
+    text-align: center;
+    padding: 50px;
+}
+.footer a{
+    color: #37a2cc;
+    font-size: 1.3em;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.footer p {
+    color: #37a2cc;
+    position: relative;
+    top: 25px;
+    font-size: .7em;
+}
